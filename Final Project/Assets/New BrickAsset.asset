@@ -73,28 +73,28 @@ MonoBehaviour:
     <RandomSelectorNode id=\"6\" />\r\n          <ActionNode id=\"7\" />\r\n         
     <ActionNode id=\"8\" />\r\n          <ActionNode id=\"9\" />\r\n        </nodes>\r\n     
     </_nodes>\r\n    </BehaviorTree>\r\n    <SequenceNode id=\"1\">\r\n      <_data>\r\n       
-    <data breakpoint=\"0\" selected=\"False\" position=\"247.7905 69.04453\" name=\"Sequence\"
+    <data breakpoint=\"0\" selected=\"False\" position=\"314.4903 26.6446\" name=\"Sequence\"
     description=\"Executes all its children in sequence until all of them are successful\"
     cardinality=\"-1\" hasParent=\"False\">\r\n          <BehaviorTree id=\"0\" />\r\n         
     <SequenceNode id=\"1\" />\r\n        </data>\r\n      </_data>\r\n    </SequenceNode>\r\n   
     <RepeatUntilSuccess id=\"2\">\r\n      <_data>\r\n        <data breakpoint=\"0\"
-    selected=\"False\" position=\"49.32935 182.759\" name=\"Repeat Until Success\"
+    selected=\"False\" position=\"116.0293 140.3591\" name=\"Repeat Until Success\"
     description=\"Repeats the execution of its child node until it success\" cardinality=\"1\"
     hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <RepeatUntilSuccess
     id=\"2\" />\r\n          <SequenceNode id=\"1\" />\r\n        </data>\r\n     
     </_data>\r\n    </RepeatUntilSuccess>\r\n    <RepeatUntilFailed id=\"4\">\r\n     
-    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"319.5673
-    177.0448\" name=\"Repeat Until Failed\" description=\"Repeats the execution of
+    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"386.2671
+    134.6449\" name=\"Repeat Until Failed\" description=\"Repeats the execution of
     its child node until it fails\" cardinality=\"1\" hasParent=\"True\">\r\n         
     <BehaviorTree id=\"0\" />\r\n          <RepeatUntilFailed id=\"4\" />\r\n         
     <SequenceNode id=\"1\" />\r\n        </data>\r\n      </_data>\r\n    </RepeatUntilFailed>\r\n   
     <ConditionNode id=\"10\">\r\n      <_data>\r\n        <data breakpoint=\"0\"
-    selected=\"False\" position=\"104.2856 304.286\" name=\"MyConditions/Is Robber
+    selected=\"True\" position=\"139.7355 256.8861\" name=\"MyConditions/Is Robber
     Near?\" description=\"Checks whether Robber is near the Treasure.\" cardinality=\"0\"
     hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <ConditionNode
     id=\"10\" />\r\n          <RepeatUntilSuccess id=\"2\" />\r\n        </data>\r\n     
     </_data>\r\n    </ConditionNode>\r\n    <SequenceNode id=\"5\">\r\n      <_data>\r\n       
-    <data breakpoint=\"0\" selected=\"False\" position=\"371.7102 277.0448\" name=\"Sequence\"
+    <data breakpoint=\"0\" selected=\"False\" position=\"438.41 234.6449\" name=\"Sequence\"
     description=\"Executes all its children in sequence until all of them are successful\"
     cardinality=\"-1\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n         
     <SequenceNode id=\"5\" />\r\n          <RepeatUntilFailed id=\"4\" />\r\n       
@@ -103,26 +103,26 @@ MonoBehaviour:
     name=\"AlwaysTrue\" description=\"Eval\" cardinality=\"1\" hasParent=\"False\">\r\n         
     <BehaviorTree id=\"0\" />\r\n        </data>\r\n      </_data>\r\n    </ConditionEvalNode>\r\n   
     <ActionNode id=\"9\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"118.6274 413.9503\" name=\"Cops/FindClosestCop\" description=\"Get
+    position=\"185.3273 371.5505\" name=\"Cops/FindClosestCop\" description=\"Get
     the Closest Free Cop.\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree
     id=\"0\" />\r\n          <ActionNode id=\"9\" />\r\n          <SequenceNode id=\"5\"
     />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n    <RandomSelectorNode
     id=\"6\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"338.0349 376.7424\" name=\"Random Selector\" description=\"Selects
+    position=\"404.7347 334.3426\" name=\"Random Selector\" description=\"Selects
     randomly one of its children\" cardinality=\"-1\" hasParent=\"True\">\r\n         
     <BehaviorTree id=\"0\" />\r\n          <RandomSelectorNode id=\"6\" />\r\n         
     <SequenceNode id=\"5\" />\r\n        </data>\r\n      </_data>\r\n    </RandomSelectorNode>\r\n   
     <ActionNode id=\"7\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"218.4156 508.5978\" name=\"GameObject/SendMessage\" description=\"Calls
+    position=\"285.1154 466.198\" name=\"GameObject/SendMessage\" description=\"Calls
     the method named methodName on every MonoBehaviour in this game object\" cardinality=\"0\"
     hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <ActionNode
     id=\"7\" />\r\n          <RandomSelectorNode id=\"6\" />\r\n        </data>\r\n     
     </_data>\r\n    </ActionNode>\r\n    <ActionNode id=\"8\">\r\n      <_data>\r\n       
-    <data breakpoint=\"0\" selected=\"False\" position=\"401.6057 505.7408\" name=\"GameObject/SendMessage\"
+    <data breakpoint=\"0\" selected=\"False\" position=\"468.3055 463.341\" name=\"GameObject/SendMessage\"
     description=\"Calls the method named methodName on every MonoBehaviour in this
     game object\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree
     id=\"0\" />\r\n          <ActionNode id=\"8\" />\r\n          <RandomSelectorNode
     id=\"6\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n  </editorInfo>\r\n</BehaviorBricks>"
-  zoom: 0.7
+  zoom: 0.8
   subslist: []
   _guid: 4c5073d3d3313aa42b81d41fc6824e4c

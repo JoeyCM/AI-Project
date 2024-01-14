@@ -2404,7 +2404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4703823074467580, guid: 81f51ec42d5c7784aa8e8d5298eddaa0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 76.230515
+      value: 75.7
       objectReference: {fileID: 0}
     - target: {fileID: 4703823074467580, guid: 81f51ec42d5c7784aa8e8d5298eddaa0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4511,6 +4511,7 @@ GameObject:
   - component: {fileID: 1292690809}
   - component: {fileID: 1292690808}
   - component: {fileID: 1292690807}
+  - component: {fileID: 1292690810}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -4592,6 +4593,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 30.686, y: -155.113, z: 0.469}
+--- !u!45 &1292690810
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292690806}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 12ccb828343c3405fb94289774b51aad, type: 2}
 --- !u!1001 &1310949166
 PrefabInstance:
   m_ObjectHideFlags: 0
